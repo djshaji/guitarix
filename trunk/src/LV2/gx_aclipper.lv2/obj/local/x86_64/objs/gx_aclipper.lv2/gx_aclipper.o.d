@@ -1,4 +1,4 @@
-./obj/local/arm64-v8a/objs/gx_aclipper.lv2/gx_aclipper.o: \
+./obj/local/x86_64/objs/gx_aclipper.lv2/gx_aclipper.o: \
   jni/gx_aclipper.cpp jni/gx_common.h jni/gx_compiler.h \
   jni/gx_aclipper.h jni/gx_pluginlv2.h jni/gx_resampler.cc \
   jni/gx_resampler.h jni/zita-resampler/resampler.h \
