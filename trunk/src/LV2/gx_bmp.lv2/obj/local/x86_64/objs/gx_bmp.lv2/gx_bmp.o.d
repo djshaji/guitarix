@@ -1,4 +1,4 @@
-./obj/local/arm64-v8a/objs/gx_bmp.lv2/gx_bmp.o: jni/gx_bmp.cpp \
+./obj/local/x86_64/objs/gx_bmp.lv2/gx_bmp.o: jni/gx_bmp.cpp \
   jni/gx_common.h jni/gx_compiler.h jni/gx_bmp.h jni/gx_pluginlv2.h \
   jni/gx_resampler.h jni/zita-resampler/resampler.h \
   jni/zita-resampler/resampler-table.h jni/bmp.cc jni/clipping.h \

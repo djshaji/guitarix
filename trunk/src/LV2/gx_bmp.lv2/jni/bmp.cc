@@ -2,7 +2,7 @@
 // Code generated with Faust (https://faust.grame.fr)
 
 #include "clipping.h"
-
+#include "gx_resampler.cc"
 namespace bmp {
 
 class Dsp: public PluginLV2 {
