@@ -8,9 +8,10 @@
 #pragma GCC diagnostic ignored "-Wunused-variable"
 #include <Eigen/Core>
 #pragma GCC diagnostic pop
-
+#include "resampler.cc"
+#include "resampler-table.cc"
 #include "gx_compiler.h"
-#include "gx_resampler.h"
+#include "gx_resampler.cc"
 #include "gx_pluginlv2.h"
 
 namespace jcm800pre {

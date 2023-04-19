@@ -23,7 +23,8 @@
 #ifndef SRC_HEADERS_GX_CONVOLVER_H_
 #define SRC_HEADERS_GX_CONVOLVER_H_
 
-#include <zita-convolver.h>
+#include <zita-convolver/zita-convolver.h>
+#include <zita-convolver/zita-convolver.cc>
 #include <stdint.h>
 #include "gx_resampler.h"
 #include "../../../config.h"

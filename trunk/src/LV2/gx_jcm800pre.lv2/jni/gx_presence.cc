@@ -114,7 +114,7 @@ bool GxPresence::configure(int32_t count, float *impresp, uint32_t imprate)
     }
 #else
   if (Convproc::configure(1, 1, count, buffersize,
-                          bufsize, bufsize,0.0)) // Convproc::MAXPART
+                          bufsize, bufsize)) // Convproc::MAXPART
     {
       printf("no configure\n");
       return false;

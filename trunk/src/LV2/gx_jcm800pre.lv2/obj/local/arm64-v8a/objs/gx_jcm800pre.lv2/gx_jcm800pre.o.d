@@ -96,10 +96,12 @@
   jni/Eigen/src/Core/Replicate.h jni/Eigen/src/Core/Reverse.h \
   jni/Eigen/src/Core/ArrayWrapper.h jni/Eigen/src/Core/StlIterators.h \
   jni/Eigen/src/Core/GlobalFunctions.h \
-  jni/Eigen/src/Core/util/ReenableStupidWarnings.h jni/gx_compiler.h \
+  jni/Eigen/src/Core/util/ReenableStupidWarnings.h jni/resampler.cc \
+  jni/resampler-table.cc jni/gx_compiler.h jni/gx_resampler.cc \
   jni/gx_resampler.h jni/gx_common.h jni/tonestack_jcm800.cc \
   jni/gx_presence.cc jni/gx_convolver.cc jni/gx_convolver.h \
-  jni/../../../config.h
+  jni/zita-convolver/zita-convolver.h \
+  jni/zita-convolver/zita-convolver.cc jni/../../../config.h
 
 jni/gx_jcm800pre.h:
 
@@ -361,7 +363,13 @@ jni/Eigen/src/Core/GlobalFunctions.h:
 
 jni/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
+jni/resampler.cc:
+
+jni/resampler-table.cc:
+
 jni/gx_compiler.h:
+
+jni/gx_resampler.cc:
 
 jni/gx_resampler.h:
 
@@ -374,5 +382,9 @@ jni/gx_presence.cc:
 jni/gx_convolver.cc:
 
 jni/gx_convolver.h:
+
+jni/zita-convolver/zita-convolver.h:
+
+jni/zita-convolver/zita-convolver.cc:
 
 jni/../../../config.h:
