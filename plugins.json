@@ -1,0 +1,312 @@
+{
+    "24500": {
+        "name": "Gx_alembic",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_alembic.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gxbooster",
+        "id": 8016,
+        "index": 0,
+        "library": "gxbooster.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_expander",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_expander.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_flanger",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_flanger.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxFuzzMaster",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_fumaster.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxFuzzFaceFuller",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_fuzzfacefm.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_fuzzface_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_fuzzface.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_gcb_95_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_gcb_95.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxGraphicEQ",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_graphiceq.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxHF_Brightener",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_hfb.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_hogsfoot_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_hogsfoot.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_hornet_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_hornet.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxMultiBandCompressor",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_mbcompressor.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxMultiBandDelay",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_mbdelay.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxMultiBandDistortion",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_mbdistortion.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxMultiBandEcho",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_mbecho.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_mbreverb_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_mbreverb.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_mole_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_mole.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gxoc_2",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_oc_2.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_phaser",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_phaser.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxRangeMaster",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_rangem.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxReverb-Stereo",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_reverb.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_room_simulator_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_room_simulator.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxScreamingBird",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_scream.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gxshimmizita",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_shimmizita.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_studiopre",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_studiopre.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx Studio Preamp Stereo",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_studiopre_st.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_susta_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_susta.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_switched_tremolo_",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_switched_tremolo.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxTape",
+        "id": 8016,
+        "index": 0,
+        "library": "gxtape.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx Tape Stereo",
+        "id": 8016,
+        "index": 0,
+        "library": "gxtape_st.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxTiltTone",
+        "id": 8016,
+        "index": 0,
+        "library": "gxtilttone.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxTremolo",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_tremolo.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxRedeyeFx",
+        "id": 8016,
+        "index": 0,
+        "library": "gxtubedelay.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxTubeTremelo",
+        "id": 8016,
+        "index": 0,
+        "library": "gxtubetremelo.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxTubeVibrato",
+        "id": 8016,
+        "index": 0,
+        "library": "gxtubevibrato.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx_vibe_mono",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_vibe.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "Gx w20",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_w20.lv2"
+    }
+}
+{
+    "24500": {
+        "name": "GxZita_rev1-Stereo",
+        "id": 8016,
+        "index": 0,
+        "library": "gx_zita_rev1.lv2"
+    }
+}
