@@ -91,7 +91,6 @@ public:
         uint8_t fxsave[512] __attribute__ ((aligned (16))); // Structure for storing FPU state with FXSAVE command
 
         memset(fxsave, 0, sizeof(fxsave));
-        __builtin_ia32_fxsave(&fxsave);
         uint32_t mask = *(reinterpret_cast<uint32_t *>(&fxsave[0x1c])); // Obtain the MXCSR mask from FXSAVE structure
         if (mask != 0)
             mxcsr_mask = mask;
