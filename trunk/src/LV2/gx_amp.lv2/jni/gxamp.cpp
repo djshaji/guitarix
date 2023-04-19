@@ -20,10 +20,13 @@
 #include <atomic>
 #include "gx_common.h"
 
+#include "gx_pluginlv2.h"   // define struct PluginLV2
 #include "gxamp.h"
 #include "gx_resampler.h"
 #include "gx_convolver.h"
-#include "gx_pluginlv2.h"   // define struct PluginLV2
+#include "gxamp.cc"
+#include "gx_resampler.cc"
+#include "gx_convolver.cc"
 #include "impulse_former.h"
 #include "ampulse_former.h"
 #include "gx_bypass.cc"     // bypass ramping
