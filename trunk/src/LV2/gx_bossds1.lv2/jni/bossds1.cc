@@ -2,7 +2,7 @@
 // Code generated with Faust (https://faust.grame.fr)
 
 #include "clipping.h"
-
+#include "gx_resampler.cc"
 namespace bossds1 {
 
 class Dsp: public PluginLV2 {

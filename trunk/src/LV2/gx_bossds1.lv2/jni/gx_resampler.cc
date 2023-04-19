@@ -18,6 +18,8 @@
  */
 
 #include "gx_resampler.h"
+#include "resampler.cc"
+#include "resampler-table.cc"
 #include <iostream>
 
 namespace gx_resample

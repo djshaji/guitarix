@@ -1,4 +1,4 @@
-./obj/local/arm64-v8a/objs/gx_bossds1.lv2/gx_bossds1.o: \
+./obj/local/armeabi-v7a/objs/gx_bossds1.lv2/gx_bossds1.o: \
   jni/gx_bossds1.cpp jni/gx_common.h jni/gx_compiler.h jni/gx_bypass.cc \
   jni/gx_bossds1.h jni/gx_pluginlv2.h jni/gx_resampler.h \
   jni/zita-resampler/resampler.h jni/zita-resampler/resampler-table.h \
