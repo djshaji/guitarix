@@ -197,23 +197,17 @@ void smbPitchShift::mem_alloc()
     }
     fftFrameSize2 = fftFrameSize/2;
 
-    try {
-        //create FFTW plan
-        ftPlanForward = fftwf_plan_dft_1d(fftFrameSize, fftw_in, fftw_out, FFTW_FORWARD, FFTW_MEASURE);
-        ftPlanInverse = fftwf_plan_dft_1d(fftFrameSize, fftw_in, fftw_out, FFTW_BACKWARD, FFTW_MEASURE);
-        fpb = new float[fftFrameSize2];
-        expect = new float[fftFrameSize2];
-        hanning = new float[fftFrameSize];
-        hanningd = new float[fftFrameSize];
-        resampin = new float[fftFrameSize];
-        resampin2 = new float[fftFrameSize];
-        resampout = new float[fftFrameSize*4];
-        indata2 = new float[fftFrameSize*4];
-    } catch(...) {
-            
-            return;
-        }
-    
+    //create FFTW plan
+    ftPlanForward = fftwf_plan_dft_1d(fftFrameSize, fftw_in, fftw_out, FFTW_FORWARD, FFTW_MEASURE);
+    ftPlanInverse = fftwf_plan_dft_1d(fftFrameSize, fftw_in, fftw_out, FFTW_BACKWARD, FFTW_MEASURE);
+    fpb = new float[fftFrameSize2];
+    expect = new float[fftFrameSize2];
+    hanning = new float[fftFrameSize];
+    hanningd = new float[fftFrameSize];
+    resampin = new float[fftFrameSize];
+    resampin2 = new float[fftFrameSize];
+    resampout = new float[fftFrameSize*4];
+    indata2 = new float[fftFrameSize*4];
     stepSize = fftFrameSize/osamp;
     freqPerBin = (double)(sampleRate/4)/(double)fftFrameSize;
     freqPerBin1 = (1/freqPerBin)*osamp2;
