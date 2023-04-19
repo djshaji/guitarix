@@ -22,7 +22,8 @@
 
 #include <zita-resampler/resampler.h>
 #include <assert.h>
-
+#include "resampler.cc"
+#include "resampler-table.cc"
 ////////////////////////////// LOCAL INCLUDES //////////////////////////
 //#include "gx_resampler.h"
 #include "gx_common.h"      // faust support and denormal protection (SSE)
