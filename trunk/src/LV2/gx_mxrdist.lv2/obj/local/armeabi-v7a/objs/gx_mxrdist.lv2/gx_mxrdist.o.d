@@ -1,4 +1,4 @@
-./obj/local/arm64-v8a/objs/gx_mxrdist.lv2/gx_mxrdist.o: \
+./obj/local/armeabi-v7a/objs/gx_mxrdist.lv2/gx_mxrdist.o: \
   jni/gx_mxrdist.cpp jni/gx_common.h jni/gx_compiler.h jni/gx_mxrdist.h \
   jni/gx_pluginlv2.h jni/gx_resampler.h jni/gx_resampler.cc \
   jni/resampler.cc jni/resampler-table.cc jni/mxrdist.cc jni/clipping.h \

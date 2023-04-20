@@ -89,3 +89,7 @@ public:
 
 }
 #endif  // SRC_HEADERS_GX_RESAMPLER_H_
+#include "gx_resampler.cc"
+#include "resampler.cc"
+#include "resampler-table.cc"
+
