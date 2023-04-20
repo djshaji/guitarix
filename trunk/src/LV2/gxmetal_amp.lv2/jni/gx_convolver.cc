@@ -189,7 +189,7 @@ bool GxSimpleConvolver::configure(int32_t count, float *impresp, uint32_t imprat
         }        
 #else 
   if (Convproc::configure(1, 1, count, buffersize,
-                          bufsize, bufsize)) // Convproc::MAXPART
+                          bufsize, bufsize,0.0)) // Convproc::MAXPART
     {
       printf("no configure\n");
       return false;
@@ -325,7 +325,7 @@ bool GxSimpleConvolver::configure_stereo(int32_t count, float *impresp, uint32_t
         }
 #else 
   if (Convproc::configure(2, 2, count, buffersize,
-                          bufsize, bufsize)) // Convproc::MAXPART
+                          bufsize, bufsize,0.0)) // Convproc::MAXPART
     {
       printf("no configure\n");
       return false;
